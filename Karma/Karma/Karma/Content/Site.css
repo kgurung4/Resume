@@ -4,6 +4,11 @@
     margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
+   
+}
+
+body {
+    background: #F0E68C;
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
@@ -20,6 +25,7 @@ textarea {
     }
 }
 
+
 .nav-bar
 {
     width: 100%;
@@ -29,5 +35,52 @@ textarea {
     position:absolute;
     background-color: black; 
     align-content:center;
+    margin-bottom:10px;
 }
 
+.nav-bar-options
+{
+    top: 13px;
+    position: absolute;
+    align-content:center;
+}
+.nav-options {
+    display: inline-flex;
+    padding: 2px;
+    font-size: 18px;
+    text-align: inherit;
+    text-decoration: none;
+    color: black;
+    background-color: #F0E68C;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #FFC72C;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: 35px;
+}
+
+    .nav-options:hover {
+        background-color: black;
+        color: #ff5252;
+        border: 2px solid #ff5252;
+        box-shadow: 5px 5px 0px #ff5252;
+    }
+
+    .nav-options:active {
+        background-color: black;
+        box-shadow: none;
+    }
+
+
+.header {
+    font-family: 'Lucida Sans', sans-serif;
+    color: #F0E68C;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+    .header:hover {
+        color: #ff5252;
+        text-shadow: 2px 2px 0px #F0E68C;
+    }

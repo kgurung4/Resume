@@ -1,7 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Karma.SiteMaster" %>
 
 <!DOCTYPE html>
-
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
@@ -14,7 +14,7 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="~/Site.css" rel="stylesheet" type="text/css" />
+
 
 </head>
 <body>
