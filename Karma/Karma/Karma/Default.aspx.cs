@@ -13,5 +13,11 @@ namespace Karma
         {
 
         }
+
+        public void RedirectToSchoolPage(object sender, EventArgs e)
+        {
+            redirectSchoolPage.Attributes.Add("href", "https://www.uwsuper.edu/");
+            redirectSchoolPage.Attributes.Add("target", "_blank");
+        }
     }
 }

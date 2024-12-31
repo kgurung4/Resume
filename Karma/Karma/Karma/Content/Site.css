@@ -11,6 +11,10 @@ body {
     background: #F0E68C;
 }
 
+html
+{
+    scroll-behavior:smooth;
+}
 /* Set widths on the form inputs since otherwise they're 100% wide */
 input,
 select,
@@ -83,4 +87,35 @@ textarea {
     .header:hover {
         color: #ff5252;
         text-shadow: 2px 2px 0px #F0E68C;
+    }
+
+.p1 {
+    position: absolute;
+    top: 90px;
+    text-align: left;
+    width: 150px;
+    background-color: antiquewhite;
+    left: 40px;
+    padding: 20px;
+    font-family: inherit;
+}
+.p2 {
+    position: absolute;
+    top: 90px;
+    text-align: left;
+    width: 150px;
+    background-color: antiquewhite;
+    left:250px;
+    padding: 20px;
+    font-family: inherit;
+}
+.redirect-link
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+    .redirect-link:hover
+    {
+        text-shadow: 2px 2px 0px white;
     }

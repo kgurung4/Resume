@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Karma._Default" %>
+﻿<%@ Page Title="Karma Gurung" Language="C#" MasterPageFile="Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Karma._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
      
@@ -16,9 +16,14 @@
                 </div>
             </div>
         </nav>
-        <p style="position:absolute; top: 90px; text-align:left; width: 150px; background-color:antiquewhite; left: 10px; padding: 20px; font-family: inherit;">
+        <div class="p1">
             Hi this is my portfolio page. You can click on the options on the top left to navigate the page faster or feel free to scroll down as it is not that long i dont think. 
-        </p>
+        </div>
+
+        <div class ="p2">
+            I am a senior studying in
+            <asp:LinkButton runat="server" ID="redirectSchoolPage" CssClass="redirect-link" OnClick="RedirectToSchoolPage" >University of Wisconsin-Superior</asp:LinkButton>
+        </div>
     </main>
 
 </asp:Content>
