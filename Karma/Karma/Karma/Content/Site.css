@@ -80,7 +80,7 @@ textarea {
 .header {
     font-family: 'Lucida Sans', sans-serif;
     color: #F0E68C;
-    text-align: center;
+    text-align:center;
     font-weight: bold;
     font-size: 30px;
 }
@@ -93,9 +93,9 @@ textarea {
     position: absolute;
     top: 90px;
     text-align: left;
-    width: 150px;
+    width: 250px;
     background-color: antiquewhite;
-    left: 40px;
+    left: 150px;
     padding: 20px;
     font-family: inherit;
 }
@@ -103,9 +103,9 @@ textarea {
     position: absolute;
     top: 90px;
     text-align: left;
-    width: 150px;
+    width: 250px;
     background-color: antiquewhite;
-    left:250px;
+    left:550px;
     padding: 20px;
     font-family: inherit;
 }
@@ -118,4 +118,38 @@ textarea {
     .redirect-link:hover
     {
         text-shadow: 2px 2px 0px white;
+    }
+
+.about-me {
+    position: relative;
+    top: 70px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    width: 500px;
+    height: 400px;
+    left: 800px;
+    box-shadow: 5px 5px 0px #FFC72C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-button 
+{
+    border-radius: 10px;
+    font-size: 50px;
+    background-color: black;
+    color: white;
+}
+    .about-me-button:hover {
+        background-color: #ff5252;
+        color: black;
+        border: 2px solid #ff5252;
+        box-shadow: 5px 5px 0px black;
+    }
+    .about-me-button:active {
+        background-color: black;
+        color: #ff5252;
+        box-shadow: none;
     }

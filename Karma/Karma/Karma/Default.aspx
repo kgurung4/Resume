@@ -20,10 +20,15 @@
             Hi this is my portfolio page. You can click on the options on the top left to navigate the page faster or feel free to scroll down as it is not that long i dont think. 
         </div>
 
-        <div class ="p2">
+        <div class ="p2" >
             I am a senior studying in
             <asp:LinkButton runat="server" ID="redirectSchoolPage" CssClass="redirect-link" OnClick="RedirectToSchoolPage" >University of Wisconsin-Superior</asp:LinkButton>
         </div>
+
+        <div class="about-me">
+            <asp:Button runat="server" Text="About me" CssClass="about-me-button"/>
+        </div>
+ 
     </main>
 
 </asp:Content>
