@@ -99,6 +99,17 @@ textarea {
     padding: 20px;
     font-family: inherit;
 }
+.p1-button {
+    position: absolute;
+    top: 110px;
+    text-align: center;
+    width: 70px;
+    background-color: antiquewhite;
+    left: 10px;
+    padding: 20px;
+    font-family: inherit;
+}
+
 .p2 {
     position: absolute;
     top: 90px;
@@ -106,6 +117,16 @@ textarea {
     width: 250px;
     background-color: antiquewhite;
     left:550px;
+    padding: 20px;
+    font-family: inherit;
+}
+.p2-button {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    width: 70px;
+    background-color: antiquewhite;
+    left: 550px;
     padding: 20px;
     font-family: inherit;
 }
