@@ -10,6 +10,8 @@ namespace Karma
     public partial class _Default : Page
     {
         private int Num_divs = 2;
+        private int count;
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -25,16 +27,51 @@ namespace Karma
 
         public void VisibilityDivs(object sender, EventArgs e)
         {
-            P1.Visible = !P1.Visible;
-            button1.Visible = !button1.Visible;
-            button2.Visible = button2.Visible;
+            if (ViewState["COUNT"] != null)
+            {
+                count++;
+                ViewState["COUNT"] = count;
+            }
+            else
+            {
+                ViewState["COUNT"] = 0;
+
+            }
+
+            if (count==0)
+            {
+                P1.Visible = !P1.Visible;
+                button1.Visible = !button1.Visible;
+                button2.Visible= !button2.Visible;
+                string cssName = "p" + 2.ToString() + "-button";
+                button2.CssClass = cssName;
+            }
+            if (count == 1)
+            {
+                P2.Visible = !P2.Visible;
+                button2.Visible = !button2.Visible;
+                button1.Visible= !button1.Visible;
+            }
         }
 
         public void VisibilityDivsButtons(object sender, EventArgs e)
-        {       
+        {
+            
+             
+            if (count == 0)
+            {
                 button1.Visible = !button1.Visible;
-                string cssName = "p" + 1.ToString()+"-button";
-                button1.CssClass = cssName;  
+                string cssName = "p" + 1.ToString() + "-button";
+                button1.CssClass = cssName;
+                
+            }
+            if(count == 1)
+            {
+                button2.Visible = !button2.Visible;
+                //string cssName = "p" + 3.ToString() + "-button";
+                //button3.CssClass = cssName;
+
+            }
         }
 
 
