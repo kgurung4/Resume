@@ -56,7 +56,8 @@ namespace Karma
 
         public void VisibilityDivsButtons(object sender, EventArgs e)
         {
-            
+            //P1.Visible = !P1.Visible;
+            //P2.Visible = !P2.Visible;
              
             if (count == 0)
             {

@@ -30,6 +30,19 @@
         <div class="about-me">
             <asp:Button runat="server" Text="About me" CssClass="about-me-button" OnClick="VisibilityDivsButtons"/>
         </div>
+
+        <div class="projects">
+            <h2 class="projects-header">Projects</h2>
+            The following are some of the projects I have completed:
+            <div class="projects-layout">
+                <div class="project-one">
+                    SES
+                </div>
+                <div class="project-one">
+                    AAD
+                </div>
+            </div>
+        </div>
  
     </main>
 

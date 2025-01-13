@@ -154,6 +154,7 @@ textarea {
     width: 500px;
     height: 400px;
     left: 800px;
+    margin-right:40px;
     box-shadow: 5px 5px 0px #FFC72C;
     display: flex;
     justify-content: center;
@@ -178,3 +179,28 @@ textarea {
         color: #ff5252;
         box-shadow: none;
     }
+.projects
+{
+    position:relative;
+    margin-top:200px;
+    width:100%;
+}
+
+.projects-header {
+    left: 40px;
+    font-family: inherit;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+    .projects-header:hover 
+    {
+        color: #ff5252;
+        text-shadow: 2px 2px 0px white;
+    }
+
+.projects-layout
+{
+    position:relative;
+    display:inline-flex;
+}
