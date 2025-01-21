@@ -36,12 +36,25 @@
             The following are some of the projects I have completed:
             <div class="projects-layout">
                 <div class="project-one">
-                    SES
+                    <asp:Button runat="server" Text="SES" CssClass="project-one-button"/>
+                    
                 </div>
-                <div class="project-one">
-                    AAD
+                <div class="project-two">
+                    <asp:Button runat="server" Text="AAD" CssClass="project-two-button"/>
                 </div>
             </div>
+
+        <div class="contacts">
+            <h2 class="contacts-header">Contact Me</h2>
+            <span>
+                Name: <asp:TextBox runat="server" Text="Type here" CssClass="contacts-box"></asp:TextBox>
+            </span>
+            <span>
+                Email: <asp:TextBox runat="server" Text="Type here" CssClass="contacts-box"></asp:TextBox>
+            </span>
+                <asp:Button Text="Send" runat="server" CssClass="send-button"/>
+
+        </div>
         </div>
  
     </main>

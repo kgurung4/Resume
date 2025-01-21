@@ -204,3 +204,86 @@ textarea {
     position:relative;
     display:inline-flex;
 }
+
+.project-one
+{
+    position:relative;
+    width: 150px;
+    height:150px;
+    background-color:bisque;
+    margin:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+    .project-one-button {
+        font-size: 18px;
+        text-align: inherit;
+        text-decoration: none;
+        color: black;
+        background-color: #F0E68C;
+        border: 2px solid #000;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px #FFC72C;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        height: 35px
+    }
+
+.project-two {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: bisque;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .project-two-button {
+        font-size: 18px;
+        text-align: inherit;
+        text-decoration: none;
+        color: black;
+        background-color: #F0E68C;
+        border: 2px solid #000;
+        border-radius: 10px;
+        box-shadow: 5px 5px 0px #FFC72C;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        height: 35px
+    }
+
+.contacts {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    width: 500px;
+    height: 400px;
+}
+    .contacts-header {
+        left: 40px;
+        font-family: inherit;
+        font-size: 22px;
+        font-weight: bold;
+        color: black;
+}
+
+    .contacts-header:hover {
+        color: #ff5252;
+        text-shadow: 2px 2px 0px white;
+    }
+    .contacts-box
+    {
+        position:relative;
+        border-radius:10px;
+    }
+
+.send-button
+{
+    position:relative;
+    border-radius:10px;
+    width:50px;
+}
